@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <!-- font google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="shooting-star">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </section>
+    <main>
+      <div class="component">
+        <div class="box">
+          <div class="person-info">
+            <div class="img">
+              <img src="images/image-jeremy.png" alt="" />
+            </div>
+            <div class="info">
+              <span class="report">Report for</span>
+              <h1 class="name">Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="list">
+            <ul>
+              <li id="daily" class="active">Daily</li>
+              <li id="weekly">Weekly</li>
+              <li id="monthly">Monthly</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="work sub_box">
+            <div class="sub_component">
+              <div class="upper">
+                <h2>Work</h2>
+                <div class="points" data-color="hsl(15, 100%, 70%)">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="lower">
+                <h1 class="hours">5hrs</h1>
+                <p class="Previous">Yesterday-7hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="play sub_box">
+            <div class="sub_component">
+              <div class="upper">
+                <h2>Play</h2>
+                <div class="points" data-color="hsl(195, 74%, 62%)">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="lower">
+                <h1 class="hours">1hr</h1>
+                <p class="Previous">Yesterday-2hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="study sub_box">
+            <div class="sub_component">
+              <div class="upper">
+                <h2>Study</h2>
+                <div class="points" data-color="hsl(348, 100%, 68%)">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="lower">
+                <h1 class="hours">0hrs</h1>
+                <p class="Previous">Yesterday-1hr</p>
+              </div>
+            </div>
+          </div>
+          <div class="exercise sub_box">
+            <div class="sub_component">
+              <div class="upper">
+                <h2>Exercise</h2>
+                <div class="points" data-color="hsl(145, 58%, 55%)">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="lower">
+                <h1 class="hours">1hr</h1>
+                <p class="Previous">Yesterday-1hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="social sub_box">
+            <div class="sub_component">
+              <div class="upper">
+                <h2>Social</h2>
+                <div class="points" data-color="hsl(264, 64%, 52%)">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="lower">
+                <h1 class="hours">1hr</h1>
+                <p class="Previous">Yesterday-3hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="self-care sub_box">
+            <div class="sub_component">
+              <div class="upper">
+                <h2>Self Care</h2>
+                <div class="points" data-color="hsl(43, 84%, 65%)">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="lower">
+                <h1 class="hours">0hrs</h1>
+                <p class="Previous">Yesterday-1hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
